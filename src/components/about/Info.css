@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.aboutus{
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background:linear-gradient(
+        90deg,
+        rgba(2,0,36,1)0%,
+        rgba(36,36,151,1)41%,
+        rgba(0,212,255,1)100%
+    );
+    color:white;
+    
+}
+.aboutsection header {
+    
+    width:100vw;
+    height: 250px;
+}
+.aboutsection header img{
+    width: 100%;
+    height: 100%;
+}
+.aboutus_overview ul{
+   
+    height: 40rem;
+    width: 100%;
+display: grid;
+grid-template-rows:300px 300px ;
+grid-template-columns:600px 600px ;
+padding:10px 0px 0 80px;
+
+}
+
+.aboutus_overview ul li{
+    max-width: 40rem;
+    height: 15rem;
+   
+    color: white;
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+   gap:20px;
+}
+
+.aboutus_overview ul li h1{
+    font-size:2.4rem;
+    align-self:start;
+    color:rgb(134, 89, 6);
+    /*here*/
+font-family: 'Barriecito', cursive;
+}
+.aboutus_overview ul li p{
+    font-size:20px;
+    line-height: 2.2rem;
+    max-width: 31rem;
+   
+}
+
+
+@media screen and (max-width:1000px){
+
+    .aboutus_overview ul{
+   
+        height: 40rem;
+        width: 100%;
+    display: grid;
+    grid-template-rows:300px 300px ;
+    grid-template-columns:500px 500px ;
+    padding:10px 0px 0 50px;
+    
+    }
+
+.aboutus_overview ul li{
+    max-width: 25rem;
+    height: 15rem;
+    color: white;
+    display: flex;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: column;
+   align-items: flex-start;
+   gap:0px;
+}
+
+.aboutus_overview ul li h1{
+    font-size:2rem;
+    align-self:start;
+    color:rgb(134, 89, 6);
+}
+.aboutus_overview ul li p{
+    font-size:16px;
+    line-height: 2.2rem;
+    max-width: 31rem;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+}
+}
+
+
+@media screen and (max-width:900px){
+    .aboutus{
+        height:105rem;
+    }
+        .aboutus_overview ul{
+       
+            height: 70rem;
+            width: 100%;
+        display: grid;
+        grid-template-rows:300px 300px 300px 300px ;
+        grid-template-columns:500px  ;
+        padding:10px 0px 0 150px;
+        }
+        
+        .aboutus_overview ul li{
+height:42rem
+        }  
+.aboutus_overview ul li h1{
+    font-size:2.8rem;
+    align-self:start;
+    color:rgb(134, 89, 6);
+}
+.aboutus_overview ul li p{
+    font-size:29px;
+    line-height: 2.2rem;
+    width: 38rem;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+    
+    }
+
+@media screen and (max-width:700px){
+.aboutus{
+    height:99rem;
+}
+    .aboutus_overview ul{
+   
+        height: 40rem;
+        width: 100%;
+    display: grid;
+    grid-template-rows:300px 300px 300px 300px ;
+    grid-template-columns:500px  ;
+    padding:10px 0px 0 100px;
+    
+    }
+
+}
+@media screen and (max-width:430px){
+    
+.aboutus_overview{
+    height:78rem;
+}
+    .aboutsection header {
+    
+        height: 200px;
+    }
+
+    .aboutus_overview ul{
+   
+    padding:10px 0px 0 40px;
+    
+    }
+    .aboutus_overview ul li{
+        width: 22rem;
+        height: 18rem;
+       gap:0px;
+    }
+    
+    .aboutus_overview ul li p{
+        font-size:17px;
+        line-height: 2rem;
+        width: 20rem; 
+       
+    }
+
+}
+
+
+
+@media screen and (max-width:370px){
+    
+    
+    
+        .aboutus_overview ul{
+       
+        padding:10px 0px 0 35px;
+        
+        }
+        .aboutus_overview ul li{
+            width: 22rem;
+            height: 18rem;
+           gap:0px;
+        }
+        
+        .aboutus_overview ul li p{
+            font-size:1rem;
+            line-height: 2rem;
+            width: 18rem; 
+           
+        }
+    }

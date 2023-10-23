@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+.printdiv{
+    display:grid;
+    grid-template-rows:300px 300px ;
+grid-template-columns:600px 600px ;
+padding:10px 0px 0 80px;
+height:53rem;
+background-color: black;
+color:rgb(189, 161, 161);
+}
+.printdiv h1{
+    color:white;
+}
+.printdiv div{
+    max-width: 70rem;
+    height: 20rem;
+   background-color: black;
+    
+    display: flex;
+    flex-direction: column;
+   
+   gap:20px;
+   justify-content: center;
+   align-items: center;
+}
+.secound img ,.forth img{
+    width:100%;
+    height: 100%;
+}
+.printdiv div p{
+color:rgb(rgb(88, 36, 36), green, rgb(0, 255, 136));
+/*here*/
+
+}
+
+
+@media screen and (max-width:1275px){
+    .printdiv{
+width:100%;
+height:50rem;
+padding-left: 10px;
+grid-template-columns:500px 500px ;
+    }
+
+    .printdiv div{
+        width: 29rem;
+        height: 25rem;
+    }
+    
+    .printdiv div p{
+       
+        height:18rem;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media screen and (max-width:1100px){
+    .printdiv{
+width:100%;
+justify-content: flex-end;
+padding-left: 50px;
+grid-template-columns:400px 400px ;
+
+    }
+
+    .printdiv div{
+        width: 23rem;
+        height: 18rem;
+       
+        align-self: center;
+    }
+    
+    .printdiv div p{
+       
+        height:20rem;
+    }
+}
+
+
+@media screen and (max-width:800px){
+           .printdiv{
+            grid-template-columns:400px 350px ;
+        
+            }
+            .printdiv div:nth-child(3),.printdiv div:nth-child(4) {
+                
+                margin-top: 25px;
+            }
+            .printdiv div{
+                width: 20rem;
+                height: 17rem;
+                margin-top:10px;
+            }
+            
+
+}
+
+
+@media screen and (max-width:750px){
+    .printdiv{
+        display:grid;
+        grid-template-rows:300px 300px 300px 300px ;
+    grid-template-columns:450px ;
+    height:83rem;
+
+    }
+
+    .printdiv div{
+        width: 23rem;
+        height: 18rem;
+        
+    }
+    
+    .printdiv div p{
+       
+        height:20rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:430px){
+    .printdiv{
+  padding:20px 0 0 0px;
+  height: 95rem; 
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+    }
+    .printdiv div{
+        padding-left: 20px;
+        width: 23rem;
+        height: 30rem;
+       
+    }
+    .secound img ,.forth img{
+        width:100vw;
+        
+    } 
+    .printdiv div p{
+       
+        height:15rem;
+        max-width: 20rem;
+    }
+}
+
+
+@media screen and (max-width:330px){
+    .printdiv{
+  padding:20px 0 0 0px;
+  height: 95rem; 
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+    }
+    .printdiv div{
+        padding-left: 10px;
+        width: 20rem;
+        height: 30rem;
+       
+    }
+    .secound img ,.forth img{
+        width:100vw;
+        
+    } 
+    .printdiv div p{
+       
+        height:15rem;
+        max-width: 20rem;
+        font-size:0.9rem;
+    }
+}

@@ -1,0 +1,162 @@
+footer{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(19, 18, 18);
+    color:white;
+    padding:15px 150px\;
+
+}
+.footer_sec{
+    padding:25px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_and_email{
+display:flex;
+gap:50px;
+}
+.logo_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.logo_section img{
+    margin: 0 0 10px 0;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:15px;
+}
+form input{
+    border-radius:4px;
+   padding:8px 5px;
+
+}
+form textarea, input{
+    width:220px;
+    background-color: transparent;
+    color:white;
+}
+
+.button{
+    width:180px;
+    background-color:rgb(241, 176, 187);
+    color:white;
+}
+
+.button:hover{
+    cursor:pointer;
+}
+.social_media ul{
+    display: flex;
+    gap:15px;
+}
+.social_media li{
+    list-style: none;
+}
+.social_media img{
+    width:60px;
+    height:40px;
+
+}
+.social_media a:hover{
+    cursor: pointer;
+}
+.footer_footer{
+font-size: 0.9rem;
+border-top: 1px solid white; 
+}
+
+@media screen and (max-width:800px){
+    footer{
+        font-size: 16px;
+        
+    }
+    .logo_section p{
+      font-size: 18px;
+    }
+    .footer_sec{
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        padding: 20px 60px;
+
+    }
+    .logo_section img{
+        width:40px;
+        height: 40px;
+
+    }
+    form{
+        margin-top: 20px;
+        gap:15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .social_media{
+        margin-bottom:10px;
+    }
+    .logo_and_email{
+        display:flex;
+        flex-direction: column;
+    }
+    .social_and_contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:10px
+    }
+    
+}
+
+
+@media screen and (min-width:1345px){
+    .footer_sec{
+        
+        width:60rem
+        
+    }
+    .logo_and_email{
+        
+        width: 30rem;
+    }
+    .logo_section{
+        margin: 0 0 40px 0;
+    }
+    
+    .social_media{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:400px){
+    footer{
+        font-size: 16px;
+        
+    }
+    .logo_section p{
+      font-size: 18px;
+    }
+    .footer_sec{
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        padding: 20px 60px;
+
+    }
+    .logo_section img{
+        width:40px;
+        height: 40px;
+
+    }
+    form{
+        margin-top: 20px;
+        gap:15px;
+    }
+    .social_media{
+        margin-bottom:10px;
+    }
+      
+}

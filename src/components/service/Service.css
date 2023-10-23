@@ -1,0 +1,500 @@
+.service_sec{
+    background:linear-gradient(
+        90deg,
+        rgba(2,0,36,1)0%,
+        rgba(36,36,151,1)41%,
+        rgba(0,212,255,1)100%
+    );
+    color:white;
+    display:flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap:30px;
+    padding:15px 0 40px 0px ;
+    height: 90rem;
+   
+}
+.service-content a,.promisetext a{
+  background-color: orange;
+  border-radius: 8px;
+  padding: 8px ;
+  width:180px;
+    color:black;
+    font-size:19px;
+}
+.service_sec ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width:60rem;
+}
+
+.service_text{
+    font-size: 29px;
+    padding: 20px 0 20px 20px;
+    max-width: 290px;
+    display:flex;
+    flex-direction :column;
+    gap:20px;
+}
+.service_sec ul li{
+    display:flex;
+    justify-content: center;
+    gap:5px;
+}
+.service_sec ul li a{
+    text-decoration: none;
+    font-size: 22px;
+   border-bottom: 2px solid white;
+   color:white;
+}
+.service_sec ul li a:hover{
+    cursor: pointer;
+    border-bottom: blue;
+    color:blue;
+    
+}
+.service-content{
+    border: 3px dotted rgb(77, 114, 235);
+    display:flex;
+    gap:20px;
+    width:60rem;
+    height: 30rem;
+    position:relative;
+    padding-top: 40px;
+}
+.service_img{
+    width:30px;
+    height:30px;
+}
+.service_cont-img{
+    
+    position: absolute;
+    right:-160px
+}
+.service_cont-img img{
+    width:33rem;
+    height:25rem;
+}
+.promise_div{
+border: 3px dotted rgb(77, 114, 235);
+padding: 30px 0 0px 30px;
+
+    width:60rem;
+    height: 25rem;
+}
+.promise{
+    display: flex;
+    background-color: rgb(28, 28, 73);
+    color:white;
+}
+.promisetext{
+    margin-right: 70px;
+    padding: 40px 60px;
+    display:flex;
+    flex-direction :column;
+    gap:20px;
+}
+.promisetext p:nth-child(1){
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+.promisetext h1{
+    font-size: 6.5rem;
+    color: orange;
+}
+.promise img{
+    width:400px;
+    height:450px;
+}
+
+
+
+
+
+@media screen and (max-width:1000px){
+    
+    .service_cont-img img{
+        width:14rem;
+        height:15rem;
+        
+        
+    }
+    .service_cont-img{
+        position: absolute;
+        right:-40px
+    }
+    .service_text{
+        font-size:16px;
+
+    }
+    .service_sec{
+        height:90rem;
+        animation:changeImage;
+        display: flex;
+        flex-direction: column;
+    }
+    .service-content{
+        display: flex;
+        flex-direction:column;
+        width:30rem;
+    height:18rem;
+        
+    }
+    
+    .service_sec ul{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+    
+    }
+    .service_sec ul a{
+        border: none;
+       
+    }
+
+
+    .clientimg{
+        width:70px;
+        height: 70px;
+    }
+
+
+    
+.promise_div{
+    
+    padding: 10px 0 0px 10px;
+        width:30rem;
+        height: 30rem;
+    }
+    
+    .promisetext{
+        margin-right: 10px;
+        padding: 20px 50px;
+        
+    }
+    .promise p, h1{
+        margin-bottom: 60px;
+    }
+    .promisetext p:nth-child(1){
+        letter-spacing: 1.3px;
+        font-size: 1rem;
+    }
+    .promisetext h1{
+        font-size: 3rem;
+        color: orange;
+    }
+    .promise img{
+        width:170px;
+        height:450px;
+    }
+}
+
+
+
+@media screen and (min-width:1360px){
+.service_sec{
+    height: 80rem;
+    
+    background-color: aqua;
+}
+}
+
+
+@media screen and (max-width:430px){
+    .service-content{
+        display: none;
+        
+    }
+    .service_sec ul{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    
+    }
+    .service_sec ul a{
+        border: none;
+       
+    }
+
+
+    .clientimg{
+        width:30px;
+        height: 70px;
+    }
+
+
+    
+.promise_div{
+    border: 3px dotted rgb(77, 114, 235);
+    padding: 10px 0 0px 20px;
+        width:30rem;
+        height: 10rem;
+        
+    }
+    
+    .promisetext{
+        padding: 20px 5px 20px 27px;
+        
+    }
+    .promise p, h1{
+        margin-bottom: 60px;
+    }
+    .promisetext p:nth-child(1){
+        letter-spacing: 1.3px;
+        font-size: 0.8rem;
+    }
+    .promisetext h1{
+        font-size: 2rem;
+        color: orange;
+    }
+    .promise img{
+        width:200px;
+        height:450px;
+    }
+    .service_sec{
+        height: 60rem;
+        animation:changeImage
+        
+    }
+}
+
+
+
+
+@media screen and (max-width:415px){
+    .service-content{
+        display: none;
+        
+    }
+    .service_sec ul{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    
+    }
+    .service_sec ul a{
+        border: none;
+       
+    }
+
+
+    .clientimg{
+        width:30px;
+        height: 70px;
+    }
+
+
+    
+.promise_div{
+    border: 3px dotted rgb(77, 114, 235);
+    padding: 10px 0 0px 20px;
+        width:30rem;
+        height: 10rem;
+        
+    }
+    
+    .promisetext{
+        padding: 20px 5px 20px 27px;
+        
+    }
+    .promise p, h1{
+        margin-bottom: 60px;
+    }
+    .promisetext p:nth-child(1){
+        letter-spacing: 1.3px;
+        font-size: 0.8rem;
+    }
+    .promisetext h1{
+        font-size: 2rem;
+        color: orange;
+    }
+    .promise img{
+        width:200px;
+        height:450px;
+    }
+    .service_sec{
+        height: 60rem;
+        animation:changeImage
+        
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .service-content{
+        display: none;
+        
+    }
+    .service_sec ul{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+    
+    }
+    .service_sec ul a{
+        border: none;
+       
+    }
+
+
+    .clientimg{
+        width:70px;
+        height: 70px;
+    }
+
+
+    
+.promise_div{
+    border: 3px dotted rgb(77, 114, 235);
+    padding: 10px 0 0px 20px;
+        width:30rem;
+        height: 10rem;
+        
+    }
+    
+    .promisetext{
+        padding: 20px 5px 20px 27px;
+        
+    }
+    .promise p, h1{
+        margin-bottom: 60px;
+    }
+    .promisetext p:nth-child(1){
+        letter-spacing: 1.3px;
+        font-size: 1rem;
+    }
+    .promisetext h1{
+        font-size: 3rem;
+        color: orange;
+    }
+    .promise img{
+        width:200px;
+        height:450px;
+    }
+    .service_sec{
+        height: 60rem;
+        animation:changeImage
+        
+    }
+}
+
+
+
+@media screen and (max-width:370px){
+    .service-content{
+        display: none;
+        
+    }
+    .service_sec ul{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+    
+    }
+    .service_sec ul a{
+        border: none;
+       
+    }
+
+
+
+    
+.promise_div{
+    border: 3px dotted rgb(77, 114, 235);
+    padding: 10px 0 0px 20px;
+        width:30rem;
+        height: 10rem;
+        
+    }
+    
+    .promisetext{
+        padding: 20px 5px 20px 40px;
+        
+    }
+    .promise p, h1{
+        margin-bottom: 60px;
+    }
+    .promisetext p:nth-child(1){
+        letter-spacing: 1.3px;
+        font-size: 1rem;
+    }
+    .promisetext h1{
+        font-size: 3rem;
+        color: orange;
+    }
+    .promise img{
+        width:150px;
+        height:400px;
+    }
+    .service_sec{
+        height: 70rem;
+        animation:changeImage
+        
+    }
+}
+
+
+
+@media screen and (max-width:330px){
+    .service-content{
+        display: none;
+        
+    }
+    .service_sec ul{
+        gap: 1rem;
+        
+    }
+    
+
+
+    .clientimg{
+        width:50px;
+        height: 50px;
+    }
+
+
+    
+.promise_div{
+    border: 3px dotted rgb(77, 114, 235);
+    padding: 10px 0 0px 20px;
+        width:30rem;
+        height: 10rem;
+        
+    }
+    
+    .promisetext{
+        padding: 20px 0px 20px 52px;
+        
+    }
+    
+    .promise p, h1{
+        margin-bottom: 60px;
+        font-size: 18px;
+    }
+    .promise p{
+        font-size: 13px;
+    }
+
+    .promisetext p:nth-child(1){
+        letter-spacing: 1.3px;
+        font-size: 1rem;
+    }
+    .promisetext h1{
+        font-size: 2rem;
+        color: orange;
+    }
+    .promise img{
+        width:130px;
+        height:380px;
+    }
+    .service_sec{
+        height: 60rem;
+        animation:changeImage
+        
+    }
+}

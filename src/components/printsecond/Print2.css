@@ -161,7 +161,7 @@ font-family: 'Tourney', cursive;
         grid-template-columns: 400px;
         grid-template-rows: 400px 200px;
         padding-left:30px;
-        height:52rem;
+        height:62rem;
     }
     .showsec .showimg{
         grid-row-start: 1;

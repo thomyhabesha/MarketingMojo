@@ -94,22 +94,30 @@
         gap:15px;
         padding:15px 0;
         
-    }
-
-    
+    }   
 .lists li{
-    width:320px;
-    gap:25px;
-    height:330px;
-    padding: 40px 10px ;
-    border-radius: 8px;
+    width:350px;
+    gap: 18px;
+    height:370px;
+    padding: 30px 10px ;
     
 }   
+
+.featuresection{
+   
+    height:90rem;
+    
+}
+.featuresection h1{
+    
+    font-size: 2rem;
+    color:rgb(134, 89, 6);
+    
+}
+    
 .lists li p{
     max-width: 350px;
-}
-.lists li img{
-    width: 60px;
-    height:60px;
+    font-size:0.9rem;
+    
 }
 }

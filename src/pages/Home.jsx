@@ -5,10 +5,11 @@ import Service1 from '../components/service/Service1'
 import Article from '../../src/components/article/Articles'
 import Footer from '../../src/components/footer/Footer'
 import Features from '../components/feautures/Feautures'
+import './home.css'
 
 function Home() {
   return (
-    <div>
+    <div className='home'>
       
 <Nav/>
 <Hero/>

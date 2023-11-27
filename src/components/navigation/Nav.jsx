@@ -3,6 +3,7 @@ import {FaBars,FaTimes} from 'react-icons/fa'
 import {Routes,Route,Link} from "react-router-dom";
 import Logo from '../img/Our_logo-removebg-preview.png'
 import User from '../img/download-removebg-preview.png'
+import {Link} from 'react-router-dom'
 import './Nav.css'
 
 export default function Nav(){
@@ -15,14 +16,14 @@ export default function Nav(){
     }
     return(
         <nav className="nav">
-           <a href="/" className='a_img'> <img src={Logo}  alt="" className='headerlogo'/></a>
+           <Link to="/" className='a_img'> <img src={Logo}  alt="" className='headerlogo'/></Link>
             <ul className={active}>
                
 
                
-                <li className='nav_items'><a href="/" className='nav_link'>Home</a></li>
-                <li className='nav_items'><a href="/Service" className='nav_link'>Service</a></li>
-                <li className='nav_items'><a href="/Aboutuspage" className='nav_link'>About</a></li>
+                <li className='nav_items'><Link to="/" className='nav_link'>Home</Link></li>
+                <li className='nav_items'><Link to="/Service" className='nav_link'>Service</Link></li>
+                <li className='nav_items'><Link to="/Aboutuspage" className='nav_link'>About</Link></li>
                 
                 </ul>
                 

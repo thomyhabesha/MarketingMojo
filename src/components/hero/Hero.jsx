@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
+import {Link} from 'react-router-dom'
 import Image from '../../constants/Image'
 
 import './Hero.css'
@@ -20,7 +21,7 @@ export default function Hero(){
             <p>Increase sales and customers by levraging online medias, while you work 
                 on other aspects, we Marketing Mojo will handle the marketing part. we make sure there is increase in your sales
                 customers quickly.</p>
-                <a href="/Book" className='btn'>Get Started</a>
+                <Link to="/book" className='btn'>Get Started</Link>
                 <ul className='floating'>
         <li><img src={Image.Follower} alt=""/></li>
         <li><img src={Image.Like} alt=""/></li>

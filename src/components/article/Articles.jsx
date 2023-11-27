@@ -1,5 +1,7 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Image from '../../constants/Image'
+
 import Data from './Data'
 
 import './Articles.css'
@@ -22,7 +24,7 @@ export default function Service(){
         </div>
         <div className='action'>
             <div>
-               <a href="/book">READY TO LUANCH? GET IN TOUCH NOW</a>
+               <Link to="/book">READY TO LUANCH? GET IN TOUCH NOW</Link>
             </div>
         </div>
         </section>

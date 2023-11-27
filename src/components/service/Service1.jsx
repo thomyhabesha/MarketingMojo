@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import AOS from 'aos'
 import  'aos/dist/aos.css'
 import Image from '../../constants/Image'
@@ -14,16 +15,16 @@ export default function Service(){
         <section className='service_sec' >
         <h1 Style="color:orange;">Our Client Love Working With Us</h1>
         <ul>
-        <li><span><img src={Image.Increase} className="service_img" alt=""/></span><a href="/book">Advertisement</a></li>
-        <li><span><img src={Image.Seacrchicon} className="service_img" alt=""/></span><a href="/book">SEO</a></li>
-        <li><span><img src={Image.WebDesig} className="service_img" alt=""/></span><a href="/book">Website Development</a></li>
-        <li><span><img src={Image.Consult} className="service_img" alt=""/></span><a href="/book">Free Consultancy</a></li>
+        <li><span><img src={Image.Increase} className="service_img" alt=""/></span><Link to="/book">Advertisement</Link></li>
+        <li><span><img src={Image.Seacrchicon} className="service_img" alt=""/></span><Link to="/book">SEO</Link></li>
+        <li><span><img src={Image.WebDesig} className="service_img" alt=""/></span><Link to="/book">Website Development</Link></li>
+        <li><span><img src={Image.Consult} className="service_img" alt=""/></span><Link to="/book">Free Consultancy</Link></li>
         </ul>
 
         <div className='service-content'> 
             <div className='service_text'>
                 <p>Paid media, SEO, email and conversion rate optimization to drive leads, pipeline, revenue.</p>
-                <a href="/Aboutuspage" >Learn More</a>
+                <Link to="/Aboutuspage" >Learn More</Link>
             </div>
             <div className='service_cont-img'>
                 <img src={Image.ManLaptop} alt="" data-aos="fade-left"/>
@@ -37,7 +38,7 @@ export default function Service(){
                     <p>THE RESULT</p>
                      <h1>1400<sup>+</sup></h1>
                      <p>Content Customers Leads</p>
-                     <a href="/Aboutuspage">Learn More</a>
+                     <Link to="/Aboutuspage">Learn More</Link>
                 </div>
                 <img src={Image.Clientgirl} alt="" className='clientimg'/>
             </div>

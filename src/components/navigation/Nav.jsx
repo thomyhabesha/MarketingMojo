@@ -3,7 +3,7 @@ import {FaBars,FaTimes} from 'react-icons/fa'
 import {Routes,Route,Link} from "react-router-dom";
 import Logo from '../img/Our_logo-removebg-preview.png'
 import User from '../img/download-removebg-preview.png'
-import {Link} from 'react-router-dom'
+
 import './Nav.css'
 
 export default function Nav(){

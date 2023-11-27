@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 body{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 .lockscreen{
   display:none;
@@ -36,6 +37,7 @@ body{
 }
 .App{
   display: block;
+  
 }
 }
 

@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react'
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
-import {BrowserRouter, Routes,Route} from "react-router-dom";
+import {HashRouter, Routes,Route} from "react-router-dom";
 import Home from './pages/Home'
 import Services from './pages/Service'
 import Aboutuspage from './pages/Aboutuspage'
@@ -42,10 +42,10 @@ setTimeout(() => {
       /> :
      <div className='App'>
 
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
-      <Route index element={<Home/>}/>
-      <Route path='/' element={<Home/>}/>
+     
+      <Route exact path='/' element={<Home/>}/>
        <Route path='/Service' element={<Services/>}/>
       <Route path='/Aboutuspage' element={<Aboutuspage/>}/>
       <Route path='/book' element={<Book/>}/> 
@@ -53,7 +53,7 @@ setTimeout(() => {
       <Route path='*' element={<Nopage/>}/>
     </Routes>
     
-    </BrowserRouter>
+    </HashRouter>
     
     </div>
       }

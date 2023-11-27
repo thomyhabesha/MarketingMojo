@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newapp/static/css/main.8ad31911.css",
-    "main.js": "/newapp/static/js/main.f7f891f6.js",
+    "main.css": "/newapp/static/css/main.0d8ae40f.css",
+    "main.js": "/newapp/static/js/main.879a4387.js",
     "static/js/787.0fcf0990.chunk.js": "/newapp/static/js/787.0fcf0990.chunk.js",
     "static/media/wmx-home-marketing.png": "/newapp/static/media/wmx-home-marketing.1457669e967da5a65d02.png",
     "static/media/girl2.png": "/newapp/static/media/girl2.cde400fc6df7795568f1.png",
@@ -35,12 +35,12 @@
     "static/media/sticker.jpg": "/newapp/static/media/sticker.2bd77c59e0ecef8d9e3a.jpg",
     "static/media/crystal.jpg": "/newapp/static/media/crystal.dd8e683a4748eb4f45fd.jpg",
     "index.html": "/newapp/index.html",
-    "main.8ad31911.css.map": "/newapp/static/css/main.8ad31911.css.map",
-    "main.f7f891f6.js.map": "/newapp/static/js/main.f7f891f6.js.map",
+    "main.0d8ae40f.css.map": "/newapp/static/css/main.0d8ae40f.css.map",
+    "main.879a4387.js.map": "/newapp/static/js/main.879a4387.js.map",
     "787.0fcf0990.chunk.js.map": "/newapp/static/js/787.0fcf0990.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ad31911.css",
-    "static/js/main.f7f891f6.js"
+    "static/css/main.0d8ae40f.css",
+    "static/js/main.879a4387.js"
   ]
 }

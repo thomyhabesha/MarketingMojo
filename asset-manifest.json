@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/marketingmojo/static/css/main.04bc7160.css",
+    "main.css": "/marketingmojo/static/css/main.a39915cc.css",
     "main.js": "/marketingmojo/static/js/main.73082401.js",
     "static/js/787.0fcf0990.chunk.js": "/marketingmojo/static/js/787.0fcf0990.chunk.js",
     "static/media/wmx-home-marketing.png": "/marketingmojo/static/media/wmx-home-marketing.1457669e967da5a65d02.png",
@@ -35,12 +35,12 @@
     "static/media/sticker.jpg": "/marketingmojo/static/media/sticker.2bd77c59e0ecef8d9e3a.jpg",
     "static/media/crystal.jpg": "/marketingmojo/static/media/crystal.dd8e683a4748eb4f45fd.jpg",
     "index.html": "/marketingmojo/index.html",
-    "main.04bc7160.css.map": "/marketingmojo/static/css/main.04bc7160.css.map",
+    "main.a39915cc.css.map": "/marketingmojo/static/css/main.a39915cc.css.map",
     "main.73082401.js.map": "/marketingmojo/static/js/main.73082401.js.map",
     "787.0fcf0990.chunk.js.map": "/marketingmojo/static/js/787.0fcf0990.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04bc7160.css",
+    "static/css/main.a39915cc.css",
     "static/js/main.73082401.js"
   ]
 }
